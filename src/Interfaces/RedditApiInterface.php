@@ -7,7 +7,6 @@ use CodeWizz\RedditAPI\PhapperLive;
 interface RedditApiInterface
 {
     public function setDebug($debug): void;
-
     /**
      * Gets information about the current user's account.
      *
